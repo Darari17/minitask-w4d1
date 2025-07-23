@@ -26,7 +26,7 @@ const newTd2 = document.createElement("td");
 const total = document.querySelectorAll("tbody>tr>td:nth-child(2)");
 const arr = [];
 for (let i = 0; i < total.length; i++) {
-    arr.push(parseInt(total[i].textContent));
+  arr.push(parseInt(total[i].textContent));
 }
 
 newTd1.innerText = "Average";

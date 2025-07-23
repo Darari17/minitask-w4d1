@@ -1,45 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
 body {
-    height: 100vh;
-    background-color: #4a84c7;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url(/assets/langit.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100vh;
+  background-color: #4a84c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/assets/langit.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    height: max-content;
-    background: #1e1d1d;
-    align-content: center;
-    justify-items: center;
-    gap: 10px;
-    border-radius: 20px;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: max-content;
+  background: #1e1d1d;
+  align-content: center;
+  justify-items: center;
+  gap: 10px;
+  border-radius: 20px;
 }
 
 .red,
 .yellow,
 .green {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 footer {
-    background: #1e1d1d;
-    width: 25px;
-    height: 100%;
+  background: #1e1d1d;
+  width: 25px;
+  height: 100%;
 }

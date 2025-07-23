@@ -1,8 +1,8 @@
 const profile = {
-    name: "John Doe",
-    age: 30,
-    profession: "Web Developer",
-    hobbies: ["Reading", "Hiking", "Photography"],
+  name: "John Doe",
+  age: 30,
+  profession: "Web Developer",
+  hobbies: ["Reading", "Hiking", "Photography"],
 };
 
 const body = document.querySelector("body");
@@ -21,9 +21,9 @@ p2.innerText = profile.profession;
 
 const lists = document.createElement("ul");
 for (let i = 0; i < profile.hobbies.length; i++) {
-    const list = document.createElement("li");
-    list.textContent = profile.hobbies[i];
-    lists.append(list);
+  const list = document.createElement("li");
+  list.textContent = profile.hobbies[i];
+  lists.append(list);
 }
 
 div.append(h2, p1, p2, lists);
